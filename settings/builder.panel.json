@@ -1,8 +1,8 @@
 {
   "excludeScenes": [],
   "packageName": "org.cocos2d.helloworld",
-  "platform": "android",
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "platform": "web-mobile",
+  "startScene": "7931d88d-006b-443b-a8fe-3e368349f252",
   "startSceneUuid": "2d2f792f-a40c-49bb-a189-ed176a246e49",
   "title": "HelloWorld"
 }

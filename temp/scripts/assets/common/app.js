@@ -1,3 +1,6 @@
+cc._RFpush(module, '280c3rsZJJKnZ9RqbALVwtK', 'app');
+// common\app.js
+
 'use strict';
 
 cc.Class({
@@ -47,3 +50,5 @@ cc.Class({
     // called every frame
     update: function update(dt) {}
 });
+
+cc._RFpop();

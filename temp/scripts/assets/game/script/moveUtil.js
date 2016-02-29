@@ -1,9 +1,30 @@
 cc._RFpush(module, '17208IhGTZPIptS6i7XFQUu', 'moveUtil');
-// script\moveUtil.js
+// game\script\moveUtil.js
 
 "use strict";
 
-var moveUitl = {
+cc.Class({
+    "extends": cc.Component,
+
+    properties: {
+        // foo: {
+        //    default: null,
+        //    url: cc.Texture2D,  // optional, default is typeof default
+        //    serializable: true, // optional, default is true
+        //    visible: true,      // optional, default is true
+        //    displayName: 'Foo', // optional
+        //    readonly: false,    // optional, default is false
+        // },
+        // ...
+    },
+
+    // use this for initialization
+    onLoad: function onLoad() {},
+
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
+
+    // },
 
     find_path: function find_path(start, end, map, marker) {
         var self = this;
@@ -12,8 +33,6 @@ var moveUitl = {
 
         var startNode = start;
         var endNode = end;
-        // console.info(startNode)
-        // console.info(endNode)
         //var map_arr = map;
         //var tra_marker = marker;
 
@@ -128,8 +147,6 @@ var moveUitl = {
         }
         return -1;
     }
-};
-
-module.exports = moveUitl;
+});
 
 cc._RFpop();
