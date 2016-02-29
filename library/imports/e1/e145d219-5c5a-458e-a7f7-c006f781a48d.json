@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xijiao",
+    "texture": "bdf0d9aa-d140-4cde-86ad-084786b08bf2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2558,
+      2413
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2558,
+      2413
+    ],
+    "rotated": 0
+  }
+}

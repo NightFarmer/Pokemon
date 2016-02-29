@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dongjiao",
+    "texture": "9836a614-fa3b-4a54-9658-9a491bbd7bd3",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      3200,
+      2414
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      3200,
+      2414
+    ],
+    "rotated": 0
+  }
+}
